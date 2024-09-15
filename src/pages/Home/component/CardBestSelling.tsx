@@ -12,8 +12,8 @@ export const CardBestSelling = ({data}:Iprop) => {
 
   return (
     <Box shadow={'none'} w={'20%'} p={'10px'} >
-        <Box display={'flex'} justifyContent={'center'} bg={'#F5F5F5'} mb={'10px'} p={'20px'}>
-            <Image w={'75%'}  src={`${data?.image}`}/>
+        <Box display={'flex'} justifyContent={'center'} bg={'#DEE5D4'} mb={'10px'} p={'20px'} rounded={'lg'}>
+            <Image w={'75%'}  src={`${data?.image}`} />
         </Box>
         <Box>
             <Text>{data.name}</Text>
